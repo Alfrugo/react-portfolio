@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Nav from "./components/Nav";
 import Project from "./components/Project";
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
+import {BrowserRouter as Router, Switch, Route, Redirect} from "react-router-dom"
 
 
 
@@ -16,10 +16,11 @@ function App() {
       <Router>
         <Header />
         <Switch>
+          <Route exact path="/" render={()=> {return(<Redirect to="/Project"/>)}}/>
           <Route exact path="/About" component={About}/>
           <Route exact path="/Project" component={Project}/>
           <Route exact path="/Contact" component={Contact}/>
-          <Route exact path="/" component={Project}/>
+          
         </Switch>
         <Footer />
       </Router>  
