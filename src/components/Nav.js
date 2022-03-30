@@ -30,6 +30,9 @@ function Nav() {
                 to = "/Project"
                 >Projects</Link>
             </li>
+            <li>
+            <a href="https://alfredo-diez.com/wp-content/uploads/2018/09/RESUME-Alfredo-Diez-1.pdf">Resume</a>
+            </li>
         </ul>
         </nav>
 
