@@ -1,66 +1,5 @@
 
-ul {
-    list-style-type: none;
-    display: flex;
-}
-li {
-    padding-left: 30px;
-}* {
-    margin: 0;
-    padding: 0;  
-    box-sizing: border-box;
-    border-radius: 10px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-decoration: none;
-}
-body {
-    background-color: #fff7e9;
-    padding: 6px;
-}
-header {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    padding: 20px 35px;
-    background-color: #000000;
-    margin: 0 0 10px 0;
-    z-index: 100;
-  }
-  header h1 {
-    font-weight: lighter;
-    font-size: 36px;
-    color: #d6d6d6;
-    margin: 0;
-    display: inline;
-    padding: 10px;
-  }
-  header span {
-      font-weight: 900;
-      color: tomato;
-  }
-  header a {
-    text-decoration: none;
-    color: #cacaca;
-  }
-  header a:hover {
-    background-color: tomato;
-    padding: 10px;
-  }
-  
-  header nav {
-    float: right;
-    margin: 7px 0;
-  }
-  
-  header nav ul li {
-    display: inline;
-  }
-  
-  header nav ul li a {
-    margin: 0 20px;
-    font-weight: normal;
-    font-size: 22px;
-  }
+
 
   .hero { 
     background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F4kwallpapers.com%2Fimages%2Fwalls%2Fthumbs_3t%2F2276.png&f=1&nofb=1");
@@ -222,53 +161,6 @@ footer a:hover {
     height: 120px;
   }
   
-  .header h1 {
-    display: block;
-    text-align: center;
-
-
-
-  }
-
-  .header nav {
-    margin: auto;  
-    float:none;
-    text-align: center;
-
- 
-  }
   
-  
-  .header nav ul li a {
-    margin: 0 0px;
-    font-weight: normal;
-    font-size: 20px;
-    padding: 5px 13px 5px 13px;
-  }
-
-  .hero h2 {
-    font-size: 1.5em;
-    float: right;
-    padding: 120px 30px 20px 0;
-    color: rgba(255, 255, 255, 0.781);
-}
-.left-column {
-  border-radius: 0;
-  flex: 1 1 20%;
-  min-width: 130px;
-  border-style: solid;
-  border-width: 0 0 5px 0;
-  border-color: tomato;
-  margin: 0 0 0 0;
-  text-align: left;
-}
-
-.right-column {
-  flex: 1 1 80%;
-  padding: 0 0 0 0px;   
-  margin: 20px 0 20px 0;
-  display: flex;
-  flex-wrap: wrap;
-}
 
 }

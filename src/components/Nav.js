@@ -7,7 +7,7 @@ function Nav() {
 
   return (
     <div className="card text-center">
-        <p> This is the nav </p>
+       <nav>
         <ul>
             <li>
                 <Link 
@@ -28,9 +28,28 @@ function Nav() {
                 activeClassName = "active"
                 isActive = {()=>window.location.pathname === "/Project"}
                 to = "/Project"
-                >Project</Link>
+                >Projects</Link>
             </li>
         </ul>
+        </nav>
+
+        {/* <nav>
+            <ul>
+                <li>
+                    <a href="#bio">Bio</a>
+                </li>
+                <li>
+                    <a href="https://alfredo-diez.com/wp-content/uploads/2018/09/RESUME-Alfredo-Diez-1.pdf">Resume</a>
+                </li>
+                <li>
+                    <a href="#work">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact me</a>
+                </li>
+            </ul>
+        </nav> */}
+
 
     </div>
   );
