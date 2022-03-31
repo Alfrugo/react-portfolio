@@ -9,7 +9,7 @@ let now = new Date();
 const nowstr = now.toISOString()
 const nowLocalStr = now.toLocaleString()
 
-
+console.log('hello world')
 
 // console.log(timestamp, now)
 // console.log(nowstr)
@@ -99,4 +99,4 @@ function isEmail(email) {
 
 }
 
-
+module.exports = form;
