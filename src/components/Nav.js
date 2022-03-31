@@ -11,22 +11,22 @@ function Nav() {
         <ul>
             <li>
                 <Link 
-                activeClassName = "active"
-                isActive = {()=>window.location.pathname === "/About"}
+                activeclassname = "active"
+                isactive = "/About"
                 to = "/About"
                 >About</Link>
             </li>
             <li>
                 <Link 
-                activeClassName = "active"
-                isActive = {()=>window.location.pathname === "/Contact"}
+                activeclassname = "active"
+                isactive = "/Contact"
                 to = "/Contact"
                 >Contact</Link>
             </li>
             <li>
                 <Link 
-                activeClassName = "active"
-                isActive = {()=>window.location.pathname === "/Project"}
+                activeclassname = "active"
+                isactive = "/Project"
                 to = "/Project"
                 >Projects</Link>
             </li>

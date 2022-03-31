@@ -33,6 +33,7 @@ header {
     margin: 0;
     display: inline;
     padding: 10px;
+    width: 300px;
   }
   header span {
       font-weight: 900;
@@ -193,19 +194,26 @@ h4:hover {
    height: 160px;
    object-fit: cover;
 }
-footer a {
-  font-size: 1em;
-  margin: 5px 0 0 20px;
-  text-decoration: none;
-  color: tomato;
-  padding: 20px 0 0 0;
-  font-weight: bold;
-}
+
 
 footer a:hover {
   background-color: tomato;
-  color: black;
+  color: rgb(185, 21, 21);
   padding: 10px 15px 10px 15px;
+}
+
+i {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.5em;
+  font-style: italic;
+  color: rgb(88, 4, 15);
+  padding: 20px;
+  margin-top: 15px;
+}
+
+i:hover {
+  
+  color: rgb(158, 6, 26);
 }
 
 /* responsive mobile friendly section */

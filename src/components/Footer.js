@@ -12,10 +12,9 @@ function Footer() {
         </div>
 
         <div className="right-column">
-        <a href="call:32332123">Tel. 313 542 221</a> 
-        <p></p>
-        <a href="mailto:diez_alfredo@hotmail.com">Email diez_alfredo@hotmail.com</a>
-          
+        <a href="https://github.com/Alfrugo"><i width="200" className="fa-brands fa-github-square" > <span> Github </span></i></a>
+        <a href="mailto:diez_alfredo@hotmail.com"><i className="fa-regular fa-envelope"> <span> Mail </span></i></a>
+        <a href="https://www.linkedin.com/in/diezalfredo/"><i className="fa-brands fa-linkedin-in"><span> LinkedIn </span></i></a>
             
         </div>
     </section>
