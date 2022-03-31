@@ -57,3 +57,13 @@ todo
 WHEN I view the footer
 
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
+
+
+## App visual 
+
+<img width="1433" alt="porfolio" src="https://user-images.githubusercontent.com/36056407/161088284-f0269f6b-b57c-4e21-8ad7-7002353c585f.png">
+
+
+## Questions / Contact
+
+If you have any questions regarding the application contact diez_alfredo@hotmail.com
